@@ -8,6 +8,9 @@
   "license": "MIT",
   "private": true,
   "type": "module",
+  "scripts": {
+    "post-install": "sh ./create-config.sh"
+  },
   "bin": {
     "commitlint": "./node_modules/@commitlint/cli/cli.js",
     "commitlint-travis": "./node_modules/@commitlint/travis-cli/cli.js"
