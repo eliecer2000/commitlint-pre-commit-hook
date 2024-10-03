@@ -1,17 +1,19 @@
 {
   "name": "commitlint-pre-commit-hook",
-  "version": "1.0.0",
+  "version": "9.18.0",
   "description": "A pre-commit hook for commitlint",
   "main": "index.js",
   "repository": "https://github.com/alessandrojcm/commitlint-pre-commit-hook.git",
   "author": "Alessandro Cuppari <me@alessandrojcm.dev>",
   "license": "MIT",
+  "private": true,
+  "type": "module",
   "bin": {
     "commitlint": "./node_modules/@commitlint/cli/cli.js",
     "commitlint-travis": "./node_modules/@commitlint/travis-cli/cli.js"
   },
   "dependencies": {
-    "@commitlint/cli": "17.4.2",
-    "@commitlint/travis-cli": "17.4.2"
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/travis-cli": "^19.5.0"
   }
 }
